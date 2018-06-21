@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="398dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/xox" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:onClick="abc"
+                android:tag="0" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:onClick="abc"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="abc"
+                android:tag="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="123dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="30dp"
+                android:onClick="abc"
+                android:tag="3" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="89dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:onClick="abc"
+                android:tag="4" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:onClick="abc"
+                android:tag="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="100dp"
+                android:layout_height="105dp"
+                android:layout_marginTop="20dp"
+                android:onClick="abc"
+                android:tag="6" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:onClick="abc"
+                android:tag="7" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:onClick="abc"
+                android:tag="8" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#3f59b5"
+        android:onClick="playagain"
+        android:text="PLAYAGAIN"
+        android:visibility="gone" />
+</RelativeLayout>
